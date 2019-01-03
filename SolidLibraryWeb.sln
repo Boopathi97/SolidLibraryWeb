@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SolidLibraryWeb", "SolidLibraryWeb\", "{0CF26DC8-C16B-4A92-ADF3-1F9B46C79E1C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{01a9a2c2-83b9-4166-9844-f575d5a1079d}|ConnectionDatabase.dll;{0f7a79dc-0342-42df-bb98-49ce17d98a9a}|SolidLibiaryDataLayer.dll;{6d497cc2-75ba-4914-85d7-7ced6bfd1756}|SolidLibiary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49463"
+		Debug.AspNetCompiler.PhysicalPath = "SolidLibraryWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49463\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49463"
+		Release.AspNetCompiler.PhysicalPath = "SolidLibraryWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49463\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49463"
+		SlnRelativePath = "SolidLibraryWeb\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityLayer", "UtilityLayer\UtilityLayer.csproj", "{B129FA95-8AC2-433B-8F5E-A678D15EF5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionDatabase", "..\SolidLibiary\ConnectionDatabase\ConnectionDatabase.csproj", "{01A9A2C2-83B9-4166-9844-F575D5A1079D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidLibiary", "..\SolidLibiary\SolidLibiary\SolidLibiary.csproj", "{6D497CC2-75BA-4914-85D7-7CED6BFD1756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidLibiaryDataLayer", "..\SolidLibiary\SolidLibiaryDataLayer\SolidLibiaryDataLayer.csproj", "{0F7A79DC-0342-42DF-BB98-49CE17D98A9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CF26DC8-C16B-4A92-ADF3-1F9B46C79E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF26DC8-C16B-4A92-ADF3-1F9B46C79E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF26DC8-C16B-4A92-ADF3-1F9B46C79E1C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF26DC8-C16B-4A92-ADF3-1F9B46C79E1C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B129FA95-8AC2-433B-8F5E-A678D15EF5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B129FA95-8AC2-433B-8F5E-A678D15EF5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B129FA95-8AC2-433B-8F5E-A678D15EF5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B129FA95-8AC2-433B-8F5E-A678D15EF5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A9A2C2-83B9-4166-9844-F575D5A1079D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A9A2C2-83B9-4166-9844-F575D5A1079D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A9A2C2-83B9-4166-9844-F575D5A1079D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A9A2C2-83B9-4166-9844-F575D5A1079D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D497CC2-75BA-4914-85D7-7CED6BFD1756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D497CC2-75BA-4914-85D7-7CED6BFD1756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D497CC2-75BA-4914-85D7-7CED6BFD1756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D497CC2-75BA-4914-85D7-7CED6BFD1756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7A79DC-0342-42DF-BB98-49CE17D98A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7A79DC-0342-42DF-BB98-49CE17D98A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7A79DC-0342-42DF-BB98-49CE17D98A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7A79DC-0342-42DF-BB98-49CE17D98A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC44EBD5-C575-47A2-8AB6-0FBB3A89D763}
+	EndGlobalSection
+EndGlobal
